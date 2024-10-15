@@ -1,0 +1,57 @@
+﻿Capability,Score,Year
+Code generation,-100,2021
+Code generation,-48.04,2022
+Code generation,-12.64,2023
+Complex reasoning,-100,2021
+Complex reasoning,-54.23,2022
+Complex reasoning,-43.12,2023
+General knowledge tests,-100,2020
+General knowledge tests,-45.99,2021
+General knowledge tests,-22.53,2022
+General knowledge tests,-5.25,2023
+Handwriting recognition,-100,1998
+Handwriting recognition,-48,2002
+Handwriting recognition,-26.67,2003
+Handwriting recognition,-25.33,2006
+Handwriting recognition,-20,2010
+Handwriting recognition,-4,2012
+Handwriting recognition,2.67,2018
+Image recognition,-100,2009
+Image recognition,-44.16,2012
+Image recognition,-6.8,2014
+Image recognition,0.69,2015
+Image recognition,6.62,2016
+Image recognition,11.69,2018
+Image recognition,9.52,2019
+Image recognition,16.45,2020
+Language understanding,-100,2018
+Language understanding,3.73,2019
+Language understanding,11.94,2020
+Language understanding,15.67,2022
+Math problem-solving,-100,2021
+Math problem-solving,-16.51,2022
+Math problem-solving,-7.44,2023
+Nuanced language interpretation,-100,2019
+Nuanced language interpretation,2.73,2021
+Nuanced language interpretation,8.2,2022
+Predictive reasoning,-100,2019
+Predictive reasoning,-80.54,2021
+Predictive reasoning,-30.64,2022
+Predictive reasoning,-0.62,2023
+Reading comprehension,-100,2016
+Reading comprehension,-8.89,2017
+Reading comprehension,6.63,2018
+Reading comprehension,18.12,2019
+Reading comprehension,18.85,2020
+Reading comprehension with unanswerable questions,-100,2018
+Reading comprehension with unanswerable questions,5.87,2019
+Reading comprehension with unanswerable questions,8.67,2020
+Reading comprehension with unanswerable questions,18.9,2021
+Speech recognition,-100,1998
+Speech recognition,-65.56,2011
+Speech recognition,-52.7,2013
+Speech recognition,-27.8,2014
+Speech recognition,-8.71,2015
+Speech recognition,-1.24,2016
+Speech recognition,0.41,2017
+Speech recognition,1.66,2018
