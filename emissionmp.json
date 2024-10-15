@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 900,
+  "height": 600,
+  "data": {
+    "url": "https://vega.github.io/vega-datasets/data/world-110m.json",
+    "format": {"type": "topojson", "feature": "countries"}
+  },
+  "transform": [
+    {
+      "lookup": "id",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/divyansusu/123hitest/main/Emissions.csv"
+        },
+        "key": "id",
+        "fields": ["Entity", "C02_Emissions", "C02_PerCapita"]
+      }
+    }
+  ],
+  "projection": {"type": "equalEarth"},
+  "mark": "geoshape",
+  "encoding": {
+    "color": {
+      "field": "C02_Emissions",
+      "type": "quantitative",
+      "scale": {
+        "domain": [0, 50000000, 200000000, 500000000, 1000000000, 10000000000],
+        "range": [
+          "#fff5f0",
+          "#fcbba1",
+          "#fc9272",
+          "#fb6a4a",
+          "#de2d26",
+          "#a50f15"
+        ]
+      }
+    },
+    "tooltip": [
+      {"field": "Entity", "type": "nominal", "title": "Country"},
+      {
+        "field": "C02_Emissions",
+        "type": "quantitative",
+        "title": "Carbon Dioxide Emissions",
+        "format": ".2s"
+      },
+      {
+        "field": "C02_PerCapita",
+        "type": "quantitative",
+        "title": "Emissions Per Capita"
+      }
+    ]
+  },
+  "config": {}
+}
