@@ -27,6 +27,9 @@
         "grid": false,
         "format": "s",
         "title": "Total Investment (Millions $)"
+      },
+      "scale": {
+        "domainMin": 0
       }
     },
     "color": {
@@ -35,4 +38,4 @@
       "title": "Country"
     }
   }
-    }
+}
