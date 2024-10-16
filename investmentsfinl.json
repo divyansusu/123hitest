@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "data": {
+    "url": "https://vega.github.io/vega-datasets/data/world-110m.json",
+    "format": {"type": "topojson", "feature": "countries"}
+  },
+  "params": [
+    {
+      "name": "yearParam",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 2013,
+        "max": 2021,
+        "step": 1,
+        "name": "Select Year:"
+      }
+    }
+  ],
+  "projection": {"type": "naturalEarth1"},
+  "layer": [
+    {"mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}},
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/divyansusu/123hitest/main/investment_ai.csv"
+      },
+      "transform": [
+        {
+          "lookup": "id",
+          "from": {
+            "data": {
+              "url": "https://vega.github.io/vega-datasets/data/world-110m.json",
+              "format": {"type": "topojson", "feature": "countries"}
+            },
+            "key": "id",
+            "fields": ["properties", "type", "geometry"]
+          }
+        },
+        {"filter": "datum.Year == yearParam"}
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "Total_Investment",
+          "type": "quantitative",
+          "title": "Total Investment in US$",
+          "scale": {
+            "range": ["#c7e9c0", "#a1d99b", "#74c476", "#31a354", "#007d38"]
+          },
+          "legend": {"format": "$.2s"}
+        },
+        "tooltip": [
+          {"field": "Entity", "type": "nominal", "title": "Country"},
+          {
+            "field": "Total_Investment",
+            "type": "quantitative",
+            "title": "Total Investments",
+            "format": "$.2s"
+          },
+          {"field": "Year", "type": "quantitative", "title": "Year"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "data": {"values": []},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal", "title": "Year"},
+    "y": {
+      "field": "Total_Investment",
+      "type": "quantitative",
+      "title": "Total Investment ($)"
+    }
+  },
+  "config": {}
+}
