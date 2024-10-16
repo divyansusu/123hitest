@@ -2,15 +2,37 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
   "height": 500,
-  "data": {"values": []},
-  "mark": "line",
+  "data": {
+    "values": []
+  },
+  "mark": {
+    "type": "line",
+    "point": true
+  },
   "encoding": {
-    "x": {"field": "Year", "type": "temporal", "title": "Year"},
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "timeUnit": "year",
+      "title": "Year",
+      "axis": {
+        "grid": false
+      }
+    },
     "y": {
       "field": "Total_Investment",
       "type": "quantitative",
-      "title": "Total Investment ($)"
+      "title": "Total Investment (in Millions $)",
+      "axis": {
+        "grid": false,
+        "format": "s",
+        "title": "Total Investment (Millions $)"
+      }
+    },
+    "color": {
+      "field": "Entity",
+      "type": "nominal",
+      "title": "Country"
     }
-  },
-  "config": {}
-}
+  }
+    }
