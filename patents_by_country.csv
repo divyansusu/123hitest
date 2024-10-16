@@ -1,5 +1,7 @@
 Entity,Code,Year,Patent_applications,id
 Argentina,ARG,2013,1,32
+Argentina,ARG,2014,0,32
+Argentina,ARG,2015,0,32
 Argentina,ARG,2016,1,32
 Argentina,ARG,2017,1,32
 Argentina,ARG,2018,7,32
@@ -21,8 +23,17 @@ Austria,AUT,2017,11,40
 Austria,AUT,2018,12,40
 Austria,AUT,2019,6,40
 Austria,AUT,2020,15,40
+Azerbaijan,AZE,2013,0,31
+Azerbaijan,AZE,2014,0,31
+Azerbaijan,AZE,2015,0,31
+Azerbaijan,AZE,2016,0,31
+Azerbaijan,AZE,2017,0,31
 Azerbaijan,AZE,2018,1,31
+Azerbaijan,AZE,2019,0,31
+Azerbaijan,AZE,2020,0,31
 Belgium,BEL,2013,1,56
+Belgium,BEL,2014,0,56
+Belgium,BEL,2015,0,56
 Belgium,BEL,2016,2,56
 Belgium,BEL,2017,2,56
 Belgium,BEL,2018,8,56
@@ -36,7 +47,16 @@ Brazil,BRA,2017,83,76
 Brazil,BRA,2018,147,76
 Brazil,BRA,2019,145,76
 Brazil,BRA,2020,148,76
+Brunei,BRN,2013,0,96
 Brunei,BRN,2014,1,96
+Brunei,BRN,2015,0,96
+Brunei,BRN,2016,0,96
+Brunei,BRN,2017,0,96
+Brunei,BRN,2018,0,96
+Brunei,BRN,2019,0,96
+Brunei,BRN,2020,0,96
+Bulgaria,BGR,2013,0,100
+Bulgaria,BGR,2014,0,100
 Bulgaria,BGR,2015,1,100
 Bulgaria,BGR,2017,3,100
 Bulgaria,BGR,2018,4,100
@@ -50,11 +70,14 @@ Canada,CAN,2017,419,124
 Canada,CAN,2018,677,124
 Canada,CAN,2019,751,124
 Canada,CAN,2020,876,124
+Chile,CHL,2013,9,152
 Chile,CHL,2014,1,152
 Chile,CHL,2015,4,152
+Chile,CHL,2016,0,152
 Chile,CHL,2017,1,152
 Chile,CHL,2018,1,152
 Chile,CHL,2019,1,152
+Chile,CHL,2020,0,152
 China,CHN,2013,1956,156
 China,CHN,2014,2484,156
 China,CHN,2015,3946,156
@@ -63,16 +86,42 @@ China,CHN,2017,14803,156
 China,CHN,2018,27588,156
 China,CHN,2019,43810,156
 China,CHN,2020,66071,156
+Colombia,COL,2013,0,170
+Colombia,COL,2014,0,170
 Colombia,COL,2015,2,170
+Colombia,COL,2016,0,170
 Colombia,COL,2017,2,170
+Colombia,COL,2018,0,170
 Colombia,COL,2019,2,170
+Colombia,COL,2020,0,170
+Costa Rica,CRI,2013,0,188
+Costa Rica,CRI,2014,0,188
+Costa Rica,CRI,2015,0,188
+Costa Rica,CRI,2016,0,188
+Costa Rica,CRI,2017,0,188
+Costa Rica,CRI,2018,0,188
 Costa Rica,CRI,2019,1,188
 Costa Rica,CRI,2020,1,188
+Croatia,HRV,2013,0,191
+Croatia,HRV,2014,0,191
 Croatia,HRV,2015,1,191
+Croatia,HRV,2016,0,191
+Croatia,HRV,2017,0,191
 Croatia,HRV,2018,2,191
 Croatia,HRV,2019,1,191
+Croatia,HRV,2020,0,191
+Cuba,CUB,2013,0,192
+Cuba,CUB,2014,0,192
+Cuba,CUB,2015,0,192
+Cuba,CUB,2016,0,192
+Cuba,CUB,2017,0,192
+Cuba,CUB,2018,0,192
+Cuba,CUB,2019,0,192
 Cuba,CUB,2020,1,192
 Czechia,CZE,2013,1,203
+Czechia,CZE,2014,0,203
+Czechia,CZE,2015,0,203
+Czechia,CZE,2016,0,203
 Czechia,CZE,2017,1,203
 Czechia,CZE,2018,1,203
 Czechia,CZE,2019,1,203
@@ -109,6 +158,7 @@ Germany,DEU,2017,399,276
 Germany,DEU,2018,635,276
 Germany,DEU,2019,849,276
 Germany,DEU,2020,1030,276
+Greece,GRC,2013,0,300
 Greece,GRC,2014,1,300
 Greece,GRC,2015,2,300
 Greece,GRC,2016,4,300
@@ -116,10 +166,14 @@ Greece,GRC,2017,14,300
 Greece,GRC,2018,9,300
 Greece,GRC,2019,3,300
 Greece,GRC,2020,5,300
+Hong Kong,HKG,2013,0,344
+Hong Kong,HKG,2014,0,344
+Hong Kong,HKG,2015,0,344
 Hong Kong,HKG,2016,4,344
 Hong Kong,HKG,2017,1,344
 Hong Kong,HKG,2018,14,344
 Hong Kong,HKG,2019,1,344
+Hong Kong,HKG,2020,0,344
 Hungary,HUN,2013,2,348
 Hungary,HUN,2014,1,348
 Hungary,HUN,2015,8,348
@@ -137,10 +191,29 @@ India,IND,2018,270,356
 India,IND,2019,10,356
 India,IND,2020,5,356
 Indonesia,IDN,2013,1,360
+Indonesia,IDN,2014,0,360
+Indonesia,IDN,2015,0,360
 Indonesia,IDN,2016,2,360
+Indonesia,IDN,2017,0,360
+Indonesia,IDN,2018,0,360
+Indonesia,IDN,2019,0,360
+Indonesia,IDN,2020,0,360
+Iran,IRN,2013,0,364
+Iran,IRN,2014,0,364
+Iran,IRN,2015,0,364
+Iran,IRN,2016,0,364
+Iran,IRN,2017,0,364
 Iran,IRN,2018,1,364
+Iran,IRN,2019,0,364
+Iran,IRN,2020,0,364
+Ireland,IRL,2013,0,372
+Ireland,IRL,2014,0,372
+Ireland,IRL,2015,0,372
 Ireland,IRL,2016,2,372
+Ireland,IRL,2017,0,372
 Ireland,IRL,2018,2,372
+Ireland,IRL,2019,0,372
+Ireland,IRL,2020,0,372
 Israel,ISR,2013,9,376
 Israel,ISR,2014,6,376
 Israel,ISR,2015,16,376
@@ -165,10 +238,31 @@ Japan,JPN,2017,2379,392
 Japan,JPN,2018,3581,392
 Japan,JPN,2019,4240,392
 Japan,JPN,2020,4262,392
+Jordan,JOR,2013,0,400
+Jordan,JOR,2014,0,400
+Jordan,JOR,2015,0,400
+Jordan,JOR,2016,0,400
 Jordan,JOR,2017,1,400
+Jordan,JOR,2018,0,400
+Jordan,JOR,2019,0,400
+Jordan,JOR,2020,0,400
+Kenya,KEN,2013,0,404
+Kenya,KEN,2014,0,404
+Kenya,KEN,2015,0,404
 Kenya,KEN,2016,1,404
+Kenya,KEN,2017,0,404
+Kenya,KEN,2018,0,404
+Kenya,KEN,2019,0,404
+Kenya,KEN,2020,0,404
+Latvia,LVA,2013,0,428
+Latvia,LVA,2014,0,428
+Latvia,LVA,2015,0,428
+Latvia,LVA,2016,0,428
 Latvia,LVA,2017,1,428
+Latvia,LVA,2018,0,428
+Latvia,LVA,2019,0,428
 Latvia,LVA,2020,1,428
+Lithuania,LTU,2013,0,440
 Lithuania,LTU,2014,2,440
 Lithuania,LTU,2015,4,440
 Lithuania,LTU,2016,3,440
@@ -176,6 +270,9 @@ Lithuania,LTU,2017,4,440
 Lithuania,LTU,2018,9,440
 Lithuania,LTU,2019,2,440
 Lithuania,LTU,2020,5,440
+Luxembourg,LUX,2013,0,442
+Luxembourg,LUX,2014,0,442
+Luxembourg,LUX,2015,0,442
 Luxembourg,LUX,2016,2,442
 Luxembourg,LUX,2017,3,442
 Luxembourg,LUX,2018,9,442
@@ -220,20 +317,41 @@ New Zealand,NZL,2016,3,554
 New Zealand,NZL,2017,10,554
 New Zealand,NZL,2018,12,554
 New Zealand,NZL,2019,5,554
+New Zealand,NZL,2020,0,554
 Norway,NOR,2013,1,578
 Norway,NOR,2014,2,578
+Norway,NOR,2015,0,578
 Norway,NOR,2016,3,578
 Norway,NOR,2017,2,578
 Norway,NOR,2018,6,578
 Norway,NOR,2019,5,578
 Norway,NOR,2020,8,578
+Oman,OMN,2013,0,512
+Oman,OMN,2014,0,512
+Oman,OMN,2015,0,512
 Oman,OMN,2016,1,512
+Oman,OMN,2017,0,512
+Oman,OMN,2018,0,512
+Oman,OMN,2019,0,512
+Oman,OMN,2020,0,512
+Panama,PAN,2013,0,591
+Panama,PAN,2014,0,591
+Panama,PAN,2015,0,591
 Panama,PAN,2016,2,591
+Panama,PAN,2017,0,591
+Panama,PAN,2018,0,591
+Panama,PAN,2019,0,591
+Panama,PAN,2020,0,591
+Peru,PER,2013,0,604
+Peru,PER,2014,0,604
 Peru,PER,2015,2,604
 Peru,PER,2016,3,604
+Peru,PER,2017,0,604
 Peru,PER,2018,3,604
 Peru,PER,2019,3,604
 Peru,PER,2020,12,604
+Philippines,PHL,2013,0,608
+Philippines,PHL,2014,0,608
 Philippines,PHL,2015,4,608
 Philippines,PHL,2016,3,608
 Philippines,PHL,2017,1,608
@@ -248,6 +366,7 @@ Poland,POL,2017,10,616
 Poland,POL,2018,19,616
 Poland,POL,2019,13,616
 Poland,POL,2020,8,616
+Portugal,PRT,2013,1,620
 Portugal,PRT,2014,1,620
 Portugal,PRT,2015,5,620
 Portugal,PRT,2016,10,620
@@ -255,6 +374,8 @@ Portugal,PRT,2017,6,620
 Portugal,PRT,2018,11,620
 Portugal,PRT,2019,3,620
 Portugal,PRT,2020,8,620
+Romania,ROU,2013,0,642
+Romania,ROU,2014,0,642
 Romania,ROU,2015,6,642
 Romania,ROU,2016,2,642
 Romania,ROU,2017,5,642
@@ -269,7 +390,14 @@ Russia,RUS,2017,182,643
 Russia,RUS,2018,210,643
 Russia,RUS,2019,169,643
 Russia,RUS,2020,189,643
+Saudi Arabia,SAU,2013,0,682
+Saudi Arabia,SAU,2014,0,682
+Saudi Arabia,SAU,2015,0,682
+Saudi Arabia,SAU,2016,0,682
+Saudi Arabia,SAU,2017,0,682
 Saudi Arabia,SAU,2018,2,682
+Saudi Arabia,SAU,2019,2,682
+Saudi Arabia,SAU,2020,2,682
 Serbia,SRB,2013,1,688
 Serbia,SRB,2014,1,688
 Serbia,SRB,2015,1,688
@@ -286,14 +414,25 @@ Singapore,SGP,2017,111,702
 Singapore,SGP,2018,201,702
 Singapore,SGP,2019,151,702
 Singapore,SGP,2020,52,702
+Slovakia,SVK,2013,0,703
+Slovakia,SVK,2014,0,703
 Slovakia,SVK,2015,4,703
+Slovakia,SVK,2016,0,703
+Slovakia,SVK,2017,0,703
+Slovakia,SVK,2018,0,703
+Slovakia,SVK,2019,0,703
 Slovakia,SVK,2020,4,703
 Slovenia,SVN,2013,2,705
+Slovenia,SVN,2014,0,705
 Slovenia,SVN,2015,2,705
 Slovenia,SVN,2016,3,705
+Slovenia,SVN,2017,0,705
 Slovenia,SVN,2018,4,705
+Slovenia,SVN,2019,0,705
+Slovenia,SVN,2020,0,705
 South Africa,ZAF,2013,1,710
 South Africa,ZAF,2014,3,710
+South Africa,ZAF,2015,0,710
 South Africa,ZAF,2016,3,710
 South Africa,ZAF,2017,3,710
 South Africa,ZAF,2018,4,710
@@ -315,7 +454,14 @@ Spain,ESP,2017,52,724
 Spain,ESP,2018,49,724
 Spain,ESP,2019,46,724
 Spain,ESP,2020,42,724
+Sri Lanka,LKA,2013,0,144
+Sri Lanka,LKA,2014,0,144
+Sri Lanka,LKA,2015,0,144
 Sri Lanka,LKA,2016,1,144
+Sri Lanka,LKA,2017,0,144
+Sri Lanka,LKA,2018,0,144
+Sri Lanka,LKA,2019,0,144
+Sri Lanka,LKA,2020,0,144
 Sweden,SWE,2013,13,752
 Sweden,SWE,2014,3,752
 Sweden,SWE,2015,6,752
@@ -324,6 +470,7 @@ Sweden,SWE,2017,11,752
 Sweden,SWE,2018,31,752
 Sweden,SWE,2019,16,752
 Sweden,SWE,2020,23,752
+Switzerland,CHE,2013,0,756
 Switzerland,CHE,2014,4,756
 Switzerland,CHE,2015,3,756
 Switzerland,CHE,2016,4,756
@@ -339,7 +486,21 @@ Taiwan,TWN,2017,186,158
 Taiwan,TWN,2018,356,158
 Taiwan,TWN,2019,497,158
 Taiwan,TWN,2020,624,158
+Thailand,THA,2013,0,764
+Thailand,THA,2014,0,764
+Thailand,THA,2015,0,764
+Thailand,THA,2016,0,764
 Thailand,THA,2017,1,764
+Thailand,THA,2018,0,764
+Thailand,THA,2019,0,764
+Thailand,THA,2020,0,764
+Tunisia,TUN,2013,0,788
+Tunisia,TUN,2014,0,788
+Tunisia,TUN,2015,0,788
+Tunisia,TUN,2016,0,788
+Tunisia,TUN,2017,0,788
+Tunisia,TUN,2018,0,788
+Tunisia,TUN,2019,0,788
 Tunisia,TUN,2020,1,788
 Turkey,TUR,2013,3,792
 Turkey,TUR,2014,2,792
@@ -356,6 +517,7 @@ Ukraine,UKR,2016,4,804
 Ukraine,UKR,2017,2,804
 Ukraine,UKR,2018,4,804
 Ukraine,UKR,2019,1,804
+Ukraine,UKR,2020,0,804
 United Kingdom,GBR,2013,80,826
 United Kingdom,GBR,2014,70,826
 United Kingdom,GBR,2015,93,826
@@ -372,5 +534,11 @@ United States,USA,2017,9851,840
 United States,USA,2018,13262,840
 United States,USA,2019,13873,840
 United States,USA,2020,12676,840
+Uruguay,URY,2013,0,858
+Uruguay,URY,2014,0,858
+Uruguay,URY,2015,0,858
+Uruguay,URY,2016,0,858
 Uruguay,URY,2017,1,858
+Uruguay,URY,2018,0,858
+Uruguay,URY,2019,0,858
 Uruguay,URY,2020,1,858
