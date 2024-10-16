@@ -18,7 +18,7 @@
       }
     }
   ],
-  "projection": {"type": "equalEarth"},
+  "projection": {"type": "mercator"},
   "mark": "geoshape",
   "encoding": {
     "color": {
